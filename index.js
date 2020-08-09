@@ -6,6 +6,6 @@ function inOrder(rootNode){
   console.log(rootNode.data);
 
   if (rootNode.right){
-    inOrder(rootNode.right)
-  }
-}
+    inOrder(rootNode.right);
+  };
+};
