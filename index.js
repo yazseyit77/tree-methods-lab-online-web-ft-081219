@@ -38,3 +38,12 @@ function max(rootNode){
     return rootNode;
   };
 };
+
+function min(rootNode){
+  let left = rootNode.left;
+  if(left){
+    return min(left);
+  }else{
+    return rootNode;
+  };
+};
