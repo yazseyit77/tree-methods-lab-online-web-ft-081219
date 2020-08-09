@@ -27,3 +27,15 @@ function findOrAdd(rootNode, newNode){
     };
   };
 };
+
+
+
+function max(rootNode){
+  let right = rootNode.right;
+  if(right){
+    return max(right);
+  } else {
+    return rootNode;
+  }
+  
+}
