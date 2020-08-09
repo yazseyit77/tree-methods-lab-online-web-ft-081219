@@ -37,5 +37,5 @@ function max(rootNode){
   } else {
     return rootNode;
   }
-  
+
 }
