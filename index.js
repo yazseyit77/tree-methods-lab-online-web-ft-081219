@@ -36,6 +36,5 @@ function max(rootNode){
     return max(right);
   } else {
     return rootNode;
-  }
-
-}
+  };
+};
