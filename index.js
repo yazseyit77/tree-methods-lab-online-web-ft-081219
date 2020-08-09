@@ -14,7 +14,11 @@ function findOrAdd(rootNode, newNode){
   if (rootNode.data === newNode.data){
     return true;
   } else if (rootNode.data > newNode.data) {
-    return
+    if (rootNode.left){
+      return findOrAdd(rootNode.left, newNode);
+    } else {
+      return rootNode.left = newNode
+    }
   } else {
 
   }
