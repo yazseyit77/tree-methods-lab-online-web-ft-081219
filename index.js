@@ -9,3 +9,13 @@ function inOrder(rootNode){
     inOrder(rootNode.right);
   };
 };
+
+function findOrAdd(rootNode, newNode){
+  if (rootNode.data === newNode.data){
+    return true;
+  } else if (rootNode.data > newNode.data) {
+    return
+  } else {
+    
+  }
+}
