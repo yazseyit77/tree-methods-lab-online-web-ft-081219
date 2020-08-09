@@ -23,7 +23,7 @@ function findOrAdd(rootNode, newNode){
     if(rootNode.right){
       return findOrAdd(rootNode.right, newNode
     } else {
-      return rootNode.right = newNode
+      return rootNode.right = newNode;
     }
   }
 }
